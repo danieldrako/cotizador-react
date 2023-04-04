@@ -1,9 +1,10 @@
+import AppSeguro from "./components/AppSeguro"
 
 
 function App() {
 
   return (
-    <h1 className="text-center">titulo </h1>
+    <AppSeguro/>
   )
 }
 
