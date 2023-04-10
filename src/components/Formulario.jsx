@@ -4,9 +4,7 @@ import CotizadorContext from "../context/CotizadorProvider"
 
 const Formulario = () => {
 
-    const {hola} = useContext(CotizadorContext)
-
-    console.log(hola)
+    const {modal, setModal} = useContext(CotizadorContext)
     
 
   return (
