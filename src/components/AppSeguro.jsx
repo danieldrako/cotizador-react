@@ -1,7 +1,8 @@
-import React from 'react'
 import Formulario from './Formulario'
 
 const AppSeguro = () => {
+
+
   return (
     <>
         <header className='my-10'>
