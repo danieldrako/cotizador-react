@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import { obtenerDiferenciaYear } from "../helpers";
 
 const CotizadorContext = createContext()
 
@@ -20,11 +21,15 @@ const CotizadorProvider = ({children}) => { //*provider=fuente de los datos
 
     const cotizarSeguro = () => { 
         //*base
+        let resultado = 2000
 
         //*obtener diferencia de años
+        const diferencia = obtenerDiferenciaYear(datos.year)
 
         //*Hay que restar el 3% por cada año
+        resultado -=((diferencia)*.03)*resultado
 
+        console.log(resultado)
         //*Americano15%
         //*Europeo35%
         //*Asiatico10%
