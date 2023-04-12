@@ -52,7 +52,8 @@ const CotizadorProvider = ({children}) => { //*provider=fuente de los datos
                 handleChangeDatos,
                 error, 
                 setError,
-                cotizarSeguro
+                cotizarSeguro,
+                resultado
             }}
         >
             {children}
