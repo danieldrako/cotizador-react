@@ -95,7 +95,7 @@ const Formulario = () => {
 
                 <input 
                     type="submit" 
-                    className="w-full bg-amber-700 hover:bg-orange-600 transition-colors text-lime-600 hover:text-lime-400 cursor-pointer p-3 uppercase font-bold"
+                    className="w-full bg-amber-600 hover:bg-orange-500 transition-colors text-lime-500 hover:text-lime-300 cursor-pointer p-3 uppercase font-bold"
                     value="Cotizar"
                 />
 
